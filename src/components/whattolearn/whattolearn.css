@@ -1,0 +1,33 @@
+.bodylearn{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.plearn{
+    font-size: 150%;
+    color:#9d2035 ;
+}
+.taglearn{
+    font-size: 300%;;
+    font-weight: 700;
+}
+@media (max-width: 574px){
+    
+    .taglearn{
+        font-size: 200%;
+    }
+    .learncards{
+        margin-left: 7%;
+    }
+}
+.learncards{
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Learncard{
+    margin-left: 50px;
+}

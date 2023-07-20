@@ -1,0 +1,36 @@
+.body1{
+    display: flex;
+    margin-top: 15%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.p2{
+    color:#9d2035 ;
+    font-size: 150%;
+}
+h2{
+    font-size: 300%;
+    font-weight: 700;
+}
+@media (max-width: 574px){
+    
+    .tag1{
+        font-size: 200%;
+    }
+}
+.guidecards{
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.courseguidebody{
+    margin-top: -10%;
+    padding: 0%;
+
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}

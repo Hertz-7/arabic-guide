@@ -1,0 +1,57 @@
+.bodystu{
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.pstu{
+    color:#9d2035 ;
+    font-size: 150%;
+}
+.tagstu{
+    font-size: 300%;;
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+@media (max-width: 574px){
+    
+    .tagstu{
+        font-size: 200%;
+    }
+}
+.stucards{
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.singleslide{
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+.tcarousel{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    overflow: hidden;
+}
+@media (max-width: 574px){
+    .tcarousel{
+        margin-left: 0%;
+    }
+}
+.comments{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+    
+
+.cmtslide{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 10%;
+}

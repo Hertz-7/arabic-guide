@@ -1,0 +1,55 @@
+
+  .App{
+    scroll-behavior: smooth;
+  }
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  .aboutbody{
+    margin-bottom: 500px;
+    
+  }
+.footer{ margin-top: 0px;
+}
+.bodymain{
+    display: flex;
+    width: 100%;
+    height: 80% !important;
+    padding: 5%;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.started{
+    height: 600px;
+    width: 500px;
+}
+.startedtext{
+    font-size:100%;
+    font-weight: 350;
+    color: gray;
+}
+.startedimg{
+    height: 600px;
+    width: 500px;
+}
+
+.titleA{
+    display: flex;
+    align-self: center;
+    opacity: 2;
+    font-size: 86px;
+    font-weight: 700;
+    line-height: 103px;
+}
+.tagstart{
+    font-size: 300%;
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+@media (max-width: 574px){
+    .tagstart{
+        font-size: 200%;
+    }
+}

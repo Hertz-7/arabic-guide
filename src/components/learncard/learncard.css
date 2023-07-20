@@ -1,0 +1,16 @@
+.viewbtn{
+    background-color:#9d2035;   
+    border-radius: 10px;
+    margin-right : 10px ;
+    width: 50%;
+    height: 50%;
+    border: none;
+    color: #ffffff;
+}
+.viewbtn:hover{
+    background-color: #9b3d4d;
+    transition: 0.5s;
+}
+.viewdiv{
+    height: 100px;
+}

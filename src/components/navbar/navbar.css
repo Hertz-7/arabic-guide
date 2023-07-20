@@ -1,0 +1,37 @@
+nav{
+    background-color: #ffffff;
+    position: relative;
+}
+.navbar-brand{
+    margin-left: 50px;
+}
+a{
+    margin-right:   50px;
+    margin-bottom: 10px;
+}
+.navbtn{
+    background-color:#9d2035;   
+    border-radius: 10px;
+    margin-right : 10px ;
+    width: 100px;
+    border: none;
+    color: #ffffff;
+}
+.navbtn:hover{
+    background-color: #9b3d4d;
+    transition: 0.5s;
+}
+.itemsincart{
+    margin-top: -200%;
+    margin-left: 100%;
+    color: #9d2035;
+    border-radius: 50%;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+}
+.nav-link:hover{
+    transition: 0.1s;
+    color: #9d2035;
+}

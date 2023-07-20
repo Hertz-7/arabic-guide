@@ -1,0 +1,17 @@
+.arabicbtn{
+    background-color:#9d2035;   
+    border-radius: 10px;
+    margin-right : 10px ;
+    border: none;
+    color: #ffffff;
+}
+.arabicbtn:hover{
+    background-color: #9b3d4d;
+    transition: 0.5s;
+}
+@media (max-width: 460px){
+    .arabicbtn{
+        font-size: 10px;
+        width: 20%;
+    }
+}

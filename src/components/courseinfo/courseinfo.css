@@ -1,0 +1,100 @@
+
+
+.card-body3{
+    
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 460px;
+    width: 400px;
+    border-radius: 5px ;
+    border: 1px solid #a7a6a6;
+    margin: 10px;
+    
+}
+@media  (max-width: 574px){
+    .card-body3{
+        width: 300px;
+    }
+}
+.card3{
+    width:100% ;
+}
+.card-body3:hover{
+    border-bottom: 10px solid #9d2035;
+    border-left: 1px solid #9d2035;
+    border-right: 1px solid #9d2035;
+    
+    border-top: 1px solid #9d2035;
+    transform: scale(1.02);
+    transition: 0.5s;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.cardhead{
+    width: 100%;
+    display: flex;
+    border-top-left-radius: 5px;
+    
+    border-top-right-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f2f6;
+    border-bottom: 1px solid #a7a6a6;
+}
+.features {
+    padding-left: 2%;
+    width: 100%;
+    list-style-type: none;
+    color: #242424;
+    font-weight: 450;
+    overflow: hidden;
+  }
+.about {
+    padding-left: 2%;
+    width: 100%;
+    color: #242424;
+    font-weight: 450;
+    
+  }
+.card-body4{
+    display: flex;
+    padding: 5%;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    border-radius: 5px ;
+    
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    
+    background-color: #fcfcfd;
+    border: 1px solid #a7a6a6;
+    margin: 10px;
+    
+}
+@media  (max-width: 574px){
+    .card-body4{
+        width: 300px;
+    }
+}
+.card4{
+    width:100% ;
+}
+.thumbnail{
+    width: 100%;
+    height: 55%;
+    padding-left: 5%;
+    border-radius: 5px;
+}
+.coursename{
+    margin: 4%;
+}
+.bookimage{
+    margin-left: 4%;
+}

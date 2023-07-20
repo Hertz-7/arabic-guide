@@ -1,0 +1,22 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Style the terms and conditions title */
+  .title {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  .title1 {
+    font-weight: bold;
+    color: black;
+  }
+  .subtxt{
+    font-size: 18px;
+    color: gray;
+  }
+  

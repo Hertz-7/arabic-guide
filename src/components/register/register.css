@@ -1,0 +1,50 @@
+.registerform{
+    width: 40%;
+    margin-top: 5%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: 'roboto',sans-serif;
+    box-shadow: 1px 1px 10px 1px gray;
+    border-radius: 5px;
+}
+.registerbody{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+.infield{
+    width: 70%;
+
+}
+
+
+.registerbtn{
+    background-color:#9d2035;   
+    border-radius: 5px;
+    width: 50%;
+    height: 7%;
+    border: none;
+    color: #ffffff;
+    margin-bottom: 5%;
+}
+.registerbtn:hover{
+    background-color: #9b3d4d;
+    transition: 0.5s;
+}
+.registernow{
+    
+    font-family: 'roboto',sans-serif;
+    text-decoration: none;
+    color: rgb(253, 6, 6);
+}
+.registernow:hover{
+    color: #9d2035;
+}
+.terms{
+    margin-left: 6%;
+}

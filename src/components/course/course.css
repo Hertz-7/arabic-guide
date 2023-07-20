@@ -1,0 +1,55 @@
+.p2{
+    color:#9d2035 ;
+    font-size: 22px;
+}
+.tag{
+    font-size: 50px;
+    font-weight: 700;
+}
+.courses{
+    width: 100%;
+    margin-top: 5%;
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.actions{
+    width: 100%;
+}
+.titleC{
+    display: flex;
+    align-self: center;
+    opacity: 2;
+    font-size: 86px;
+    font-weight: 700;
+    line-height: 103px;
+}
+.heading{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+}
+.tagcourses{
+    font-size: 300%;
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+@media (max-width: 574px){
+    .tagcourses{
+        font-size: 200%;
+    }
+}
+.ratings{
+    color: gray;
+}
+.rated{
+    display: flex;
+
+}
+.stars{
+    font-weight: 600;
+    margin-right: 2%;
+    margin-left: 2%;
+}
